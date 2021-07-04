@@ -1,0 +1,15 @@
+body{
+
+}
+section{
+    display: flex;
+}
+h1 span {
+    color: orange;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 100%;
+}
