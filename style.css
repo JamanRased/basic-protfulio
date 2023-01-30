@@ -1,6 +1,11 @@
+:root{
+    --body-margin: 0;
+    --body-font-family: 'Poppins', sans-serif;
+    --button-color: rgb(255, 255, 255);
+}
 body{
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
+    margin: var(--body-margin);
+    font-family:var(--body-font-family)
 }
 section{
     height: 550px;
@@ -8,8 +13,7 @@ section{
 }
 .top-banner{
     background-image: url("img/bg1.jpg");
-    background-repeat: no-repeat;
-   
+    background-repeat: no-repeat;  
 }
 .half-width{
     width:40%;
@@ -32,14 +36,13 @@ h1{
 h1 span{
     color: rgb(236, 226, 207);
 }
-
 .anchor-button{
     text-decoration: none;
     background: linear-gradient(45deg, rgb(109, 91, 91), tomato);
     margin-top: 10px;
     padding: 10px 40px;
     border-radius: 5px;
-    color: rgb(255, 255, 255);
+    color:var(--button-color);
     font-weight: 700;
 }
 p{
@@ -61,7 +64,6 @@ h2{
 .experience-area h3{
     color: rgb(240, 233, 221);
 }
-
 .experience-area div{
     box-shadow: 5px 7px 40px gray;
     height: 80%;
